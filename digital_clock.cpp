@@ -12,6 +12,15 @@ int main(){
   int minutes = (timePtr->tm_min);
   int hours = (timePtr->hour);
   
+//  displaying the digital clock:
+  while(true){
+//     system cls is used to clear the output console screen
+   system("cls");
+   
+   cout<<"The digital time is: ";
+   cout<<"  "<<hours<<"  :  "<<minutes<<"  :  "<<seconds<<endl;
+  }
+  
   
   return 0;
 }
