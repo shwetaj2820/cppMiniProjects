@@ -19,8 +19,28 @@ int main(){
    
    cout<<"The digital time is: ";
    cout<<"  "<<hours<<"  :  "<<minutes<<"  :  "<<seconds<<endl;
+    
+    
+// incrementing time:
+    
+    seconds++;
+    
+    if(seconds>=60){
+      seconds = 1;
+      minutes++;
+    }
+    
+    if(minutes>=60){
+      minutes=0;
+      hours++;
+    }
+    
+    if(hours>=24){
+      hours = 00;
+    }
+    
+    sleep(1000);
   }
-  
   
   return 0;
 }
