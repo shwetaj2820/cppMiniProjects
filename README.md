@@ -15,7 +15,7 @@ Steps followed to make the digital clock:
   
 3. Displaying the current system time:</br>
   Printing the variables of the timePtr structure (the variables are: hours, minutes and seconds).</br>
-  Usage of system("cls") in order to clear screen.
+  Usage of system("cls") in order to clear screen..
   
 4. Incrementing the system time:
 5. Delay and delete buttons on the screen:
