@@ -10,7 +10,7 @@ int main(){
 //   storing the local time in variables from the timePtr structure
   int seconds = (timePtr->tm_sec);
   int minutes = (timePtr->tm_min);
-  int hours = (timePtr->hour);
+  int hours = (timePtr->tm_hour);
   
 //  displaying the digital clock:
   while(true){
@@ -39,7 +39,7 @@ int main(){
       hours = 00;
     }
     
-    sleep(1000);
+    Sleep(1000);
   }
   
   return 0;
