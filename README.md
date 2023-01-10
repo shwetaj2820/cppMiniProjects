@@ -22,3 +22,7 @@ Steps followed to make the digital clock:
   When seconds reach 60, it is updated back to 1.</br>
   When minute reach 60, it is updated back to 1.</br>
   When hour reach 24, it is updated to 00.
+
+Output:
+![Capture](https://user-images.githubusercontent.com/93914795/211635520-3af731b6-1a26-482e-8241-774506f89319.JPG)
+
